@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans CJK KR', serif;
+  background-color:#731AED;
+  white-space: nowrap;
+}
+
+body,
+html {
+  height: 100%;
+}
+/*  뷰, 메인, 폰트 세팅 */
+
+/* 메인페이지 */
+
+.main01{
+  background-image: url('./img/main01.png');
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* -webkit-perspective: 1000;
+          perspective: 1000; */
+  color: #fff;
+}
+
+.main_logo{
+  font-family: 'NotoSansCJKkr-Thin';
+  font-size: 5em;
+  letter-spacing: -1px;
+  line-height:110px;
+  position: absolute;
+  margin-top:164px;
+  margin-left: 200px;
+  /* -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); */
+}
+
+.main_logo02 {
+  font-family: 'NotoSansCJKkr-light';
+  font-size: 3.125em;
+  letter-spacing: -1px;
+  position: absolute;
+  /* line-height:110px; */
+  top: 49.5%;
+  margin-left: 200px;
+  /* -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); */
+}
+
+.newfund{
+  font-family: 'NotoSansCJKkr-Medium';
+}
+
+
+.main_logo03{
+  position: absolute;
+  top:45%;
+  left:75px;
+  /* background-color: black;; */
+}
+
+.mainlogo03_img {
+  width: 700px;
+}
+
+
+/* 영상  */
+
+.MotionImage{
+  height: 250%;
+  width: 100%;
+  position: relative;
+}
+
+.motion_section{
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+}
+
+#motion_01{
+  max-width: 1200px;
+}
+
+
+
+
+
+
+/* 메인2 */
+
+
+
+.main02 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-perspective: 1000;
+          perspective: 1000;
+}
+
+.section {
+  height: 100%;
+  width: calc( 100% / 6 );
+  float: left;
+  position: relative;
+}
+
+
+.section00 {
+  height: 100%;
+  width: calc( 100% / 6 );
+  float: left;
+  position: relative;
+}
+
+
+.section:nth-child(1) {
+  background: #731AED;
+}
+.section:nth-child(2) {
+  background: #731AED;
+}
+.section:nth-child(3) {
+  background: black;
+}
+.section:nth-child(4) {
+  background: black;
+}
+.section:nth-child(5) {
+  background: black;
+}
+.section:nth-child(6) {
+  background:black;
+}
+
+  .main02_sections {
+  width: 600%;
+  height: 100%;
+
+}
